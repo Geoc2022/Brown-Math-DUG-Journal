@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Brown Math Journal]]></title><description><![CDATA[Brown Math Journal]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 19 Jun 2025 02:10:25 GMT</lastBuildDate><item><title><![CDATA[Example Paper]]></title><description><![CDATA[A nonsensical example paper]]></description><link>https://lumen.alxshelepenok.com/posts/example-paper</link><guid isPermaLink="false">https://lumen.alxshelepenok.com/posts/example-paper</guid><pubDate>Mon, 02 Jan 2023 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;We can render:&lt;/p&gt;
+&lt;p&gt;$$ \frac{1}{\pi} = \frac{\sqrt{8}}{9801}\sum_{n=0}^{\infty}\frac{(4n)!}{(n!)^4}\times\frac{26390n + 1103}{396^{4n}}$$&lt;/p&gt;
+&lt;p&gt;And inline equations: \(\sum_{n=0}^{\infty} \frac{1}{2^n} = 2\)&lt;/p&gt;
+&lt;details&gt;&lt;summary&gt;Hidden text (Click Here)&lt;/summary&gt;
+&lt;p&gt;
+This could be used to explain a concept as an aside to the reader or make a small comment
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#introduction&quot;&gt;Introduction&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#main-result&quot;&gt;Main Result&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#the-anti-surjective-case&quot;&gt;The Anti-Surjective Case&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#connections-to-questions-of-ellipticity&quot;&gt;Connections to Questions of Ellipticity&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;introduction&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#introduction&quot; aria-label=&quot;introduction permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Is it possible to compute multiplicative, connected vectors like? Is it possible to derive meromorphic subgroups? A useful survey of the subject can be found in [22]. This leaves open the question of existence. In [22], the main result was the extension of quasi-real, pairwise singular scalars.&lt;/p&gt;
+&lt;p&gt;It is well known that every ultra-composite random variable is regular and antisingular. In this context, the results of [29] are highly relevant. It has long been known that T (Ay,δ) ̸= e [31]. Now it is essential to consider that C may be contrastochastically meager. In this setting, the ability to extend monoids is essential. In [13], the authors characterized infinite, positive isomorphisms. Thus the work in [24] did not consider the natural, Tate, universally non-negative definite case. Therefore this leaves open the question of invertibility. Thus every student is aware that W is not bounded by s. On the other hand, it is well known that D ≥ 1.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;fib&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;n&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    a&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; b &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;while&lt;/span&gt; a &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt; n&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;a&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; end&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos; &apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+        a&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; b &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; b&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; a&lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt;b
+    &lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+fib&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1000&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Recently, there has been much interest in the computation of unique arrows. It was Poisson who first asked whether subsets can be examined. This reduces the results of [22] to standard techniques of geometric dynamics. Unfortunately, we cannot assume that e (Y ) is not controlled by ϵ ′′. W. Maruyama’s description of free, combinatorially negative definite, completely maximal polytopes was a milestone in arithmetic geometry. This could shed important light on a conjecture of Borel.&lt;/p&gt;
+&lt;p&gt;It has long been known that x −6 ≡ 20 [13]. In this context, the results of [3, 10, 6] are highly relevant. This reduces the results of [22] to a well-known result of de Moivre [14]. Thus this reduces the results of [31] to the countability of anti-universal, dependent primes. A useful survey of the subject can be found in [4].&lt;/p&gt;
+&lt;h2 id=&quot;main-result&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#main-result&quot; aria-label=&quot;main result permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Main Result&lt;/h2&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pharetra massa erat, in fringilla enim varius at. Integer iaculis felis non risus faucibus, in dignissim urna lacinia. Cras mollis varius velit at mattis. Sed volutpat scelerisque fermentum. Morbi ut dapibus dolor. Nulla eu sem ullamcorper, auctor nibh et, suscipit justo. Proin leo massa, consequat ac ipsum accumsan, hendrerit gravida velit. Aliquam tincidunt ante sit amet dui maximus, sit amet suscipit libero blandit. Ut elementum, tortor ac vestibulum sodales, metus nunc imperdiet eros, nec mattis enim augue aliquam leo. Nulla tincidunt consequat quam, eget consectetur augue sollicitudin sit amet. In vitae massa venenatis, gravida eros quis, mattis magna. Etiam in eros et sem pulvinar mollis. Nunc vel blandit sem. Vivamus congue nulla lacus, finibus aliquam elit tempor non. Maecenas lacus lacus, pulvinar eu odio vel, dignissim aliquet dolor. Pellentesque urna risus, posuere suscipit diam sed, malesuada sagittis turpis.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Mathematics is the art of giving the same name to different things.&lt;/p&gt;
+&lt;p&gt;— Henri Poincaré&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;#abcde&quot;&gt;test&lt;/a&gt;
+Donec magna purus, fermentum pretium nulla eget, pretium laoreet mauris. Praesent vitae dui ac est ultricies tincidunt pretium ac velit. Vestibulum pellentesque erat vel dapibus maximus. Aenean eget ipsum non justo convallis condimentum ut nec est. Maecenas gravida nibh vitae mi blandit venenatis. Proin at cursus mauris. Sed non metus eu turpis pharetra congue sed a leo. In accumsan velit et metus hendrerit, vitae congue ex mattis. Morbi congue tincidunt magna, non pharetra lacus. Sed in malesuada dolor. Donec sit amet nunc sapien. Nullam porttitor convallis nunc id pellentesque.&lt;/p&gt;
+&lt;h2 id=&quot;the-anti-surjective-cases&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#the-anti-surjective-cases&quot; aria-label=&quot;the anti surjective cases permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;The Anti-Surjective Cases&lt;/h2&gt;
+&lt;h3 id=&quot;the-anti-surjective-case&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#the-anti-surjective-case&quot; aria-label=&quot;the anti surjective case permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;The Anti-Surjective Case&lt;/h3&gt;
+&lt;p&gt;Each transition took away a part of humanity from written language. Handwritten books being the most humane form and the digital typefaces being the least. Overuse of Helvetica is a good example. Messages are being told in a typeface just because it’s a safe option. It’s always there. Everyone knows it but yet, nobody knows it. Stop someone on the street and ask him what Helvetica is? Ask a designer the same question. Ask him where it came from, when, why and who designed it. Most of them will fail to answer these questions. Most of them used it in their precious projects but they still don’t spot it in the street.&lt;/p&gt;
+&lt;p&gt;&lt;a name=&quot;abcde&quot;&gt;label&lt;/a&gt;&lt;/p&gt;
+&lt;figure&gt;
+	&lt;blockquote&gt;
+		&lt;p&gt;
+		The day for the election came, and as Caesar&apos;s mother accompanied him to the door in tears, he kissed her and said: &quot;Mother, to‑day thou shalt see thy son either pontifex maximus or an exile.&quot; The contest was sharp, but when the vote was taken Caesar prevailed, and thereby made the senate and nobles afraid that he would lead the people on to every extreme of recklessness.
+		&lt;/p&gt;
+		&lt;footer&gt;
+			&lt;cite&gt;— Plutarch&lt;/cite&gt;
+		&lt;/footer&gt;
+	&lt;/blockquote&gt;
+&lt;/figure&gt;
+&lt;p&gt;Morbi consectetur egestas justo ut efficitur. Sed tincidunt dictum mauris. Cras orci diam, posuere volutpat pulvinar sit amet, placerat vitae dolor. Cras convallis vestibulum faucibus. In efficitur sapien nisi, in volutpat sapien dignissim ut. Cras faucibus volutpat felis, id accumsan lorem sodales sit amet. Curabitur vitae odio dui. Nulla facilisi. In elementum erat nisl, eget auctor sapien tempor non. Aenean velit justo, vestibulum ut aliquet in, auctor nec nunc. Duis congue vulputate justo, vitae mollis lacus pretium a.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I make rapid progress in the art of using many words to say nothing at all.&lt;/p&gt;
+&lt;p&gt;— Otto von Bismark&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&quot;gatsby-resp-iframe-wrapper&quot; style=&quot;padding-bottom: 56.25%; position: relative; height: 0; overflow: hidden; margin-bottom: 1.0725rem&quot; &gt; &lt;iframe src=&quot;https://www.youtube.com/embed/mvmuCPvRoWQ&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot; style=&quot; position: absolute; top: 0; left: 0; width: 100%; height: 100%; &quot;&gt;&lt;/iframe&gt; &lt;/div&gt;
+&lt;div class=&quot;gatsby-resp-iframe-wrapper&quot; style=&quot;padding-bottom: 56.25%; position: relative; height: 0; overflow: hidden; margin-bottom: 1.0725rem&quot; &gt; &lt;iframe src=&quot;https://www.desmos.com/calculator/ywm3t2m1oj?embed&quot; style=&quot;border: 0px solid #ccc; position: absolute; top: 0; left: 0; width: 100%; height: 100%; &quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt; &lt;/div&gt;
+&lt;/html&gt;
+&lt;p&gt;Sed non efficitur ante. Phasellus nunc ipsum, facilisis scelerisque aliquet non, rutrum id ex. Duis aliquam luctus lectus, et tincidunt orci bibendum eu. Etiam elit odio, imperdiet eget fringilla gravida, sagittis id nibh. Donec a erat libero. Nunc fermentum felis vel ligula gravida euismod. Aenean fermentum urna sollicitudin ligula elementum, non accumsan libero efficitur.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 960px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/MATH_DUG_Journal/static/cb86250991762ba15b8ee6bd5e1f866a/a878e/Penrose.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAALkuAAC5LgGjprQiAAAFMElEQVR42iWU+VOUdRzHH5Nd2Jtnd59nn332YA9Yjt3lWMR7KjXz6hI1BTQNTE0R70gEAlQUUBxRVFDHAcuxGLPUmWw0a2ryB5vKzCb/m1cf7Nfv+XmfypM7C9lUp3EjovOh5uZKwM8eo5AmzcVNU6fJ62IqYdCYKOTexGymzuYYPFhKt9vDYJGfzrCXMz4vnVviTA5Xo4weLqc9qLLb7yGn2xnYXcLS8kLmBx0M7EnxatLNJo+THtNLV2OckeMZOmcb9ARUahz5JAssdBsqHWmNwzuSKHPcBfxeHuFckcbpvjQj/RmuJAJ8GzM4ujfF1Qs19CT9vEhHWeax43bkMSkoHsRN1vlcrPY6mJKzd4M6cacVZUfAw3qvk4TbyvGqANs9rpfTTH/Q6HAwnDVI+22slMemUVQlnAzuKqF+lp/JqM4PxSbLSj2CLMXauAflm5TJk/Iw8zOFXE0G+K0iQk6gFOVbeFAe4rb8viircicb4mHY4Pj+Uu6MzeL6eC0HsxoHQio3LtdyuLWYTl1FWed30WC1c+loliMtCd7OK+CDgJt1IspGp4MtbxjcHM3xgcBbJXvTZ0YOV9Amwr0edVGl2TiS0VnstLFd0CrPq4pYYsmncYXJ4KEyfg0HuRDS6JLfnkVCnNpWwu5NRVTOsPA0E2UsprMg7eGP0jDjUY0TIR/PisM0up08L42gtOkedvnc3CoJUmXYaQ4XcvT9GP2bk+xMeF+uXREqukTVj8RCx+oMit35NPmcbBB0K1x2uuYF6W1J0j7XENsMZOkv1XgsPL7mLKAhpTIgPJ3prKC5xs9cewH3ykzGRfnh3jRde0u4GPTzZ2WUaquVZEQ+PF3F5MlKWleGUH78Yg5rlgaomJHHhJj7RXmUBdZ8MjMt/CIKPkya5F6xsKha5f7kbIZaU3QIZy2Cqj/iYzyuM96fZai7gn5NROlpTlAvcptqPn0rIqwyXIwKN7eFgsWqnRPLI5SF7SzSHXQ2xBjry9C8MEDQlscFsdZU3OBNv4TgvRjzIk6Uq2GNn6NBPtkc5861OibGc5wq07kU0xgdzHJPpuqR9NxNBZmKBKh3Ofi3KMzA8ih7G4qozbPyU0WY70MBKgN2lMGExgaxTf/BMi50ptlZJyqm3GREjNYFBse2Jrk8VMW7dhuDcY1NYqmjupfVNT4e3Z7Pa4V2NovCW2s1zh3LoFSLiafDP1xl0LDU4HHEZEis8Ink+/ewyfbFQY7kAtxNBFkqlwtemcFwzM/nsQAtb4UYSxs8MCWmzUm+Op9DaZGGGdV8nJHmUK0z2WcW0m6qtIpx+4R0r6y1h1UmJL8f6266pF0Oqh6+lgRVewpY6LIxEvZTXynlcSCFcjHkp21zjFNik+6o7+W0ZTYrmmUmE/HAy2mnOezen6I35OUfMW/THI0rZ6vZldO5K6JslBQpMxQ+lUGU1dU+vhipYYnktVfSMSlJ6BA1dzcWcSmhM2L6WRB1cu10Nc0C/x2Pg7Pix12yv0YEui0PHpodoL2tmM+kXJTmUCEnZYomcX2/IWTX+nn45Ty+uz6H5lUm7QJvp9DQIUlpi6iknfmMJXXq5eFzIuhyaaEJGeje1Touncii3E8GuS7ZXe2083dUsrsyyg4he/uiIH0Swaci0jbVxZAo+0hMvk+4/Uuyu0xUvy/tcyNr0iHFur5E/b9gl5lyeEcJ42LYA4tNonYL58XYt5IGoYI8ts7SGPsszXmxVb1cSlry6HgnwvixLCe3JKnx2VgruX4q3M712PgPtwfBk6x1jVUAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/MATH_DUG_Journal/static/cb86250991762ba15b8ee6bd5e1f866a/8ac56/Penrose.webp 240w,
+/MATH_DUG_Journal/static/cb86250991762ba15b8ee6bd5e1f866a/d3be9/Penrose.webp 480w,
+/MATH_DUG_Journal/static/cb86250991762ba15b8ee6bd5e1f866a/e46b2/Penrose.webp 960w,
+/MATH_DUG_Journal/static/cb86250991762ba15b8ee6bd5e1f866a/f992d/Penrose.webp 1440w,
+/MATH_DUG_Journal/static/cb86250991762ba15b8ee6bd5e1f866a/882b9/Penrose.webp 1920w,
+/MATH_DUG_Journal/static/cb86250991762ba15b8ee6bd5e1f866a/8df42/Penrose.webp 2048w&quot;
+              sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/MATH_DUG_Journal/static/cb86250991762ba15b8ee6bd5e1f866a/8ff5a/Penrose.png 240w,
+/MATH_DUG_Journal/static/cb86250991762ba15b8ee6bd5e1f866a/e85cb/Penrose.png 480w,
+/MATH_DUG_Journal/static/cb86250991762ba15b8ee6bd5e1f866a/d9199/Penrose.png 960w,
+/MATH_DUG_Journal/static/cb86250991762ba15b8ee6bd5e1f866a/07a9c/Penrose.png 1440w,
+/MATH_DUG_Journal/static/cb86250991762ba15b8ee6bd5e1f866a/29114/Penrose.png 1920w,
+/MATH_DUG_Journal/static/cb86250991762ba15b8ee6bd5e1f866a/a878e/Penrose.png 2048w&quot;
+            sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+            type=&quot;image/png&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/MATH_DUG_Journal/static/cb86250991762ba15b8ee6bd5e1f866a/d9199/Penrose.png&quot;
+            alt=&quot;Penrose.png&quot;
+            title=&quot;&quot;
+            loading=&quot;lazy&quot;
+            decoding=&quot;async&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Italics&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Nam placerat cursus lorem id cursus. Proin eget sem nec lorem gravida pulvinar id nec augue. Integer vulputate consequat lorem vitae viverra. Curabitur congue dui tortor, nec sagittis tellus pharetra ac. Nulla fermentum auctor ligula, ac sagittis erat accumsan blandit. Pellentesque tristique luctus enim, eu porttitor turpis fermentum vitae. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aliquam porta feugiat facilisis. Nullam aliquet turpis egestas lacinia tempor. Aliquam tempus est id tortor lacinia malesuada. Donec in dignissim augue.&lt;/p&gt;
+&lt;h2 id=&quot;connections-to-questions-of-ellipticity&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#connections-to-questions-of-ellipticity&quot; aria-label=&quot;connections to questions of ellipticity permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Connections to Questions of Ellipticity&lt;/h2&gt;
+&lt;p&gt;Suspendisse tortor massa, fermentum in risus molestie, blandit fermentum mi. Aenean vitae massa in enim pellentesque imperdiet. Aliquam commodo at dolor ut blandit. Nulla nec fringilla dolor, vitae tristique magna. Phasellus pretium consectetur velit, et dictum massa gravida in. Cras nec consequat augue, vitae elementum lacus. Vivamus varius non elit at aliquam. Pellentesque vel pretium odio. Ut vel accumsan quam. Sed pretium et justo et accumsan. Integer quam velit, varius nec condimentum dapibus, molestie eget lorem. Aenean turpis orci, finibus sed velit in, egestas bibendum purus. Aliquam cursus a elit vel ultricies.&lt;/p&gt;
+&lt;p&gt;Originally published by &lt;a href=&quot;https://en.wikipedia.org/wiki/William_Kingdon_Clifford&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;William Clifford&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Creating a Post using a LaTeX File]]></title><description><![CDATA[Quick intro to add a post using a latex file]]></description><link>https://lumen.alxshelepenok.com/posts/creating-a-post-using-a-latex-file</link><guid isPermaLink="false">https://lumen.alxshelepenok.com/posts/creating-a-post-using-a-latex-file</guid><pubDate>Sun, 01 Jan 2023 22:41:32 GMT</pubDate><content:encoded>&lt;h2 id=&quot;motivation&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#motivation&quot; aria-label=&quot;motivation permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Motivation:&lt;/h2&gt;
+&lt;p&gt;LaTeX is a popular typesetting system used for writing scientific and technical documents. However, when it comes to creating a blog post or webpage, Markdown is a more convenient format.&lt;/p&gt;
+&lt;h2 id=&quot;gathering-the-required-libraries&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#gathering-the-required-libraries&quot; aria-label=&quot;gathering the required libraries permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Gathering the Required Libraries&lt;/h2&gt;
+&lt;p&gt;To get started, make sure you have &lt;a href=&quot;https://www.python.org/downloads/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Python installed&lt;/a&gt; on your system. The script utilizes the following libraries:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;os&lt;/strong&gt;: for path manipulation and file operations&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;re&lt;/strong&gt;: for regular expression matching and replacement&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;datetime&lt;/strong&gt;: for generating the current date and time&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;These libraries should be on your machine with your install of Python&lt;/p&gt;
+&lt;h2 id=&quot;running-the-script&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#running-the-script&quot; aria-label=&quot;running the script permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Running the Script&lt;/h2&gt;
+&lt;p&gt;Complete the &lt;a href=&quot;https://mathdugresearch.netlify.app/posts/step-by-step-guide-to-start-writing-on-here#add-your-article&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;steps&lt;/a&gt; till “Create a new markdown file”. In your preferred IDE (or terminal), open the repository and find the ”&lt;a href=&quot;https://github.com/Geoc2022/BrownMathDUG_Research/blob/main/content/posts/addpost.py&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;addpost.py&lt;/a&gt;” script under “content/post”. Move your LaTeX file to the “content/posts” folder. Run the python script using your IDE (or “python3 addpost.py” on your terminal), and answer the questions prompted by the script. Then complete the &lt;a href=&quot;https://mathdugresearch.netlify.app/posts/step-by-step-guide-to-start-writing-on-here#stage-the-file&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;steps&lt;/a&gt; starting from “Stage the file”.&lt;/p&gt;
+&lt;p&gt;Here are some items you may need to fix:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Images/Video:
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.markdownguide.org/basic-syntax/#images-1&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Images Documentation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://css-tricks.com/embedded-content-in-markdown/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Embedded Images/Video&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Tables:
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://tableconvert.com/latex-to-markdown&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Converting LaTeX to Markdown&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.markdownguide.org/extended-syntax/#tables&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Table Documentation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Footnotes:
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.markdownguide.org/extended-syntax/#footnotes&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Footnote Documentation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Step-by-step Guide to Start Writing on Here]]></title><description><![CDATA[Quick intro to add a post to the journal]]></description><link>https://lumen.alxshelepenok.com/posts/step-by-step-guide-to-start-writing-on-here</link><guid isPermaLink="false">https://lumen.alxshelepenok.com/posts/step-by-step-guide-to-start-writing-on-here</guid><pubDate>Sun, 01 Jan 2023 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;Check out the &lt;a href=&quot;http://george.chemmala.com/BrownMathDUG_Research/posts/vectors-over-trivially-regular-hyper-banach-euler-factors&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;example paper&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#gain-access-to-the-repository-on-github&quot;&gt;Getting Repository Access&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#add-your-article&quot;&gt;Adding an Article&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#git-terms&quot;&gt;Helpful Git Vocab&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;gain-access-to-the-repository-on-github&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#gain-access-to-the-repository-on-github&quot; aria-label=&quot;gain access to the repository on github permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Gain access to the repository on GitHub:&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;If you have not already done so, create a GitHub account&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a name=&quot;request-access&quot; style=&quot;text-decoration:none&quot;&gt;Request access:&lt;/a&gt; If you don’t have access to the repository, you will need to request access (likely through email) from the repository owner or an existing collaborator.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a name=&quot;accept-invitation&quot; style=&quot;text-decoration:none&quot;&gt;Accept invitation:&lt;/a&gt; If the repository owner or collaborator grants you access to the repository, you will receive an email invitation from GitHub. Follow the instructions in the email to accept the invitation and gain access to the repository.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;add-your-article&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#add-your-article&quot; aria-label=&quot;add your article permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Add your article:&lt;/h2&gt;
+&lt;p&gt;The following instructions are written with VSCode in mind and contains shortcuts on VSCode, but the steps can be replicated on other IDEs like WebStorm, Vim, etc.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a name=&quot;install-git&quot; style=&quot;text-decoration:none&quot;&gt;Install Git:&lt;/a&gt; (Skip if on macOS) If you haven’t already, you need to install Git on your computer. You can download and install it from the official Git website: &lt;a href=&quot;https://git-scm.com/downloads&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://git-scm.com/downloads&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a name=&quot;clone-the-repository&quot; style=&quot;text-decoration:none&quot;&gt;Clone the repository:&lt;/a&gt; Open VSCode (or your IDE of choice) and move to the “Welcome” tab. Click on the “Clone Repository” button. Enter the URL of the GitHub repository you want to contribute to and choose a folder on your computer to store the repository files.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Cmd+Shift+P (Mac) or Ctrl+Shift+P (Windows) to open the Command Palette.&lt;/li&gt;
+&lt;li&gt;Type “Git: Clone” and press Enter.&lt;/li&gt;
+&lt;li&gt;Enter the repository URL and press Enter.&lt;/li&gt;
+&lt;li&gt;Choose the location to save the repository and press Enter.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a name=&quot;open-the-repository-in-vscode&quot; style=&quot;text-decoration:none&quot;&gt;Open the repository in VSCode:&lt;/a&gt; Once you have cloned the repository, VSCode will open it automatically. If not, navigate to the folder where you cloned the repository using the “Explorer” view and double-click on the folder to open it in VSCode.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a name=&quot;create-a-new-markdown-file&quot; style=&quot;text-decoration:none&quot;&gt;Create a new markdown file:&lt;/a&gt; To create a new markdown file, right-click on the folder where you want to store the file in the “Explorer” view and select “New File”. Name the file with the .md extension to indicate that it’s a markdown file. (Alternatively you can create a starter markdown file from an existing LaTeX file)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Cmd+N (Mac) or Ctrl+N (Windows) to create a new file.&lt;/li&gt;
+&lt;li&gt;Type in the file name with the .md extension and press Enter.&lt;/li&gt;
+&lt;li&gt;Begin editing the file.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a name=&quot;edit-the-markdown-file&quot; style=&quot;text-decoration:none&quot;&gt;Edit the markdown file:&lt;/a&gt; Double-click on the markdown file to open it in VSCode’s text editor. Write or paste the content of the markdown file in the editor. You can use VSCode’s built-in markdown preview feature to check how the file will look once it’s rendered. To preview the file, right-click on the editor and select “Open Preview” or press Ctrl+Shift+V on Windows or Cmd+Shift+V on Mac.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a name=&quot;stage-the-file&quot; style=&quot;text-decoration:none&quot;&gt;Stage the file:&lt;/a&gt; Once you have made changes to the markdown file, save the file (Ctrl+S on Windows or Cmd+S on Mac). Then, go to the “Source Control” panel in the sidebar by clicking on the icon that looks like a branch with a circle around it. You should see the changes you made to the file in the “Changes” section. Click the ”+” button next to the file name to stage the file.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Cmd+S (Mac) or Ctrl+S (Windows) to save changes to the file.&lt;/li&gt;
+&lt;li&gt;Cmd+Shift+G (Mac) or Ctrl+Shift+G (Windows) to open the Source Control panel.&lt;/li&gt;
+&lt;li&gt;Click on the ”+” icon next to the markdown file to stage changes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a name=&quot;commit-the-file&quot; style=&quot;text-decoration:none&quot;&gt;Commit the file:&lt;/a&gt; After staging the file, add a commit message that describes the changes you made to the file. Enter the commit message in the text box at the top of the “Source Control” panel and click the checkmark icon to commit the changes.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Type in a commit message and press Cmd+Enter (Mac) or Ctrl+Enter (Windows) to commit changes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a name=&quot;push-the-changes-to-the-remote-repository&quot; style=&quot;text-decoration:none&quot;&gt;Push the changes to the remote repository:&lt;/a&gt; To push your changes to the remote repository, click on the ”…” button next to the branch name in the “Source Control” panel and select “Push”. This will upload your changes to the repository on GitHub.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Cmd+Shift+P (Mac) or Ctrl+Shift+P (Windows) to open the Command Palette.&lt;/li&gt;
+&lt;li&gt;Type “Git: Push” and press Enter to push changes to the remote repository.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;git-terms&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#git-terms&quot; aria-label=&quot;git terms permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Git Terms&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a name=&quot;git&quot; style=&quot;text-decoration:none&quot;&gt;Git:&lt;/a&gt; A version control system that allows developers to track changes to their code over time.&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;repository&quot; style=&quot;text-decoration:none&quot;&gt;Repository:&lt;/a&gt; A Git repository is a collection of files and folders, along with the version history of those files.&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;clone&quot; style=&quot;text-decoration:none&quot;&gt;Clone:&lt;/a&gt; The act of creating a copy of a Git repository on your local machine.&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;commit&quot; style=&quot;text-decoration:none&quot;&gt;Commit:&lt;/a&gt; A commit is a record of changes made to a repository. Each commit has a unique identifier, a timestamp, and a commit message that describes the changes made.&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;branch&quot; style=&quot;text-decoration:none&quot;&gt;Branch:&lt;/a&gt; A branch is a copy of the repository that allows you to work on changes without affecting the original codebase. You can create a branch to experiment with new features or to fix bugs, for example.&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;merge&quot; style=&quot;text-decoration:none&quot;&gt;Merge:&lt;/a&gt; The act of combining changes from one branch into another branch.&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;pull&quot; style=&quot;text-decoration:none&quot;&gt;Pull:&lt;/a&gt; The act of fetching changes from a remote repository and merging them into your local repository.&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;push&quot; style=&quot;text-decoration:none&quot;&gt;Push:&lt;/a&gt; The act of uploading changes from your local repository to a remote repository.&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;remote&quot; style=&quot;text-decoration:none&quot;&gt;Remote:&lt;/a&gt; A remote is a version of the repository that is stored on a server, such as GitHub or Bitbucket.&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;origin&quot; style=&quot;text-decoration:none&quot;&gt;Origin:&lt;/a&gt; The default name for the remote repository that a local repository was cloned from.&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;fork&quot; style=&quot;text-decoration:none&quot;&gt;Fork:&lt;/a&gt; A fork is a copy of a repository that is created on your GitHub account. This allows you to experiment with changes to the codebase without affecting the original repository.&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;pull-request&quot; style=&quot;text-decoration:none&quot;&gt;Pull request:&lt;/a&gt; A pull request is a request to merge changes from one branch or fork into another branch or repository. The owner of the target branch or repository can review the changes and decide whether to accept or reject the pull request.&lt;/li&gt;
+&lt;/ol&gt;</content:encoded></item></channel></rss>
