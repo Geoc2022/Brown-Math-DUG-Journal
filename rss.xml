@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Brown Math Journal]]></title><description><![CDATA[Brown Math Journal]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 19 Jun 2025 02:10:25 GMT</lastBuildDate><item><title><![CDATA[Example Paper]]></title><description><![CDATA[A nonsensical example paper]]></description><link>https://lumen.alxshelepenok.com/posts/example-paper</link><guid isPermaLink="false">https://lumen.alxshelepenok.com/posts/example-paper</guid><pubDate>Mon, 02 Jan 2023 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;We can render:&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Brown Math Journal]]></title><description><![CDATA[Brown Math Journal]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 19 Jun 2025 02:41:04 GMT</lastBuildDate><item><title><![CDATA[Example Paper]]></title><description><![CDATA[A nonsensical example paper]]></description><link>https://lumen.alxshelepenok.com/posts/example-paper</link><guid isPermaLink="false">https://lumen.alxshelepenok.com/posts/example-paper</guid><pubDate>Mon, 02 Jan 2023 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;We can render:&lt;/p&gt;
 &lt;p&gt;$$ \frac{1}{\pi} = \frac{\sqrt{8}}{9801}\sum_{n=0}^{\infty}\frac{(4n)!}{(n!)^4}\times\frac{26390n + 1103}{396^{4n}}$$&lt;/p&gt;
 &lt;p&gt;And inline equations: \(\sum_{n=0}^{\infty} \frac{1}{2^n} = 2\)&lt;/p&gt;
 &lt;details&gt;&lt;summary&gt;Hidden text (Click Here)&lt;/summary&gt;
@@ -61,7 +61,7 @@ Donec magna purus, fermentum pretium nulla eget, pretium laoreet mauris. Praesen
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/MATH_DUG_Journal/static/cb86250991762ba15b8ee6bd5e1f866a/a878e/Penrose.png&quot;
+    href=&quot;/Brown-Math-DUG-Journal/static/cb86250991762ba15b8ee6bd5e1f866a/a878e/Penrose.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -72,28 +72,28 @@ Donec magna purus, fermentum pretium nulla eget, pretium laoreet mauris. Praesen
   &gt;&lt;/span&gt;
   &lt;picture&gt;
           &lt;source
-              srcset=&quot;/MATH_DUG_Journal/static/cb86250991762ba15b8ee6bd5e1f866a/8ac56/Penrose.webp 240w,
-/MATH_DUG_Journal/static/cb86250991762ba15b8ee6bd5e1f866a/d3be9/Penrose.webp 480w,
-/MATH_DUG_Journal/static/cb86250991762ba15b8ee6bd5e1f866a/e46b2/Penrose.webp 960w,
-/MATH_DUG_Journal/static/cb86250991762ba15b8ee6bd5e1f866a/f992d/Penrose.webp 1440w,
-/MATH_DUG_Journal/static/cb86250991762ba15b8ee6bd5e1f866a/882b9/Penrose.webp 1920w,
-/MATH_DUG_Journal/static/cb86250991762ba15b8ee6bd5e1f866a/8df42/Penrose.webp 2048w&quot;
+              srcset=&quot;/Brown-Math-DUG-Journal/static/cb86250991762ba15b8ee6bd5e1f866a/8ac56/Penrose.webp 240w,
+/Brown-Math-DUG-Journal/static/cb86250991762ba15b8ee6bd5e1f866a/d3be9/Penrose.webp 480w,
+/Brown-Math-DUG-Journal/static/cb86250991762ba15b8ee6bd5e1f866a/e46b2/Penrose.webp 960w,
+/Brown-Math-DUG-Journal/static/cb86250991762ba15b8ee6bd5e1f866a/f992d/Penrose.webp 1440w,
+/Brown-Math-DUG-Journal/static/cb86250991762ba15b8ee6bd5e1f866a/882b9/Penrose.webp 1920w,
+/Brown-Math-DUG-Journal/static/cb86250991762ba15b8ee6bd5e1f866a/8df42/Penrose.webp 2048w&quot;
               sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
               type=&quot;image/webp&quot;
             /&gt;
           &lt;source
-            srcset=&quot;/MATH_DUG_Journal/static/cb86250991762ba15b8ee6bd5e1f866a/8ff5a/Penrose.png 240w,
-/MATH_DUG_Journal/static/cb86250991762ba15b8ee6bd5e1f866a/e85cb/Penrose.png 480w,
-/MATH_DUG_Journal/static/cb86250991762ba15b8ee6bd5e1f866a/d9199/Penrose.png 960w,
-/MATH_DUG_Journal/static/cb86250991762ba15b8ee6bd5e1f866a/07a9c/Penrose.png 1440w,
-/MATH_DUG_Journal/static/cb86250991762ba15b8ee6bd5e1f866a/29114/Penrose.png 1920w,
-/MATH_DUG_Journal/static/cb86250991762ba15b8ee6bd5e1f866a/a878e/Penrose.png 2048w&quot;
+            srcset=&quot;/Brown-Math-DUG-Journal/static/cb86250991762ba15b8ee6bd5e1f866a/8ff5a/Penrose.png 240w,
+/Brown-Math-DUG-Journal/static/cb86250991762ba15b8ee6bd5e1f866a/e85cb/Penrose.png 480w,
+/Brown-Math-DUG-Journal/static/cb86250991762ba15b8ee6bd5e1f866a/d9199/Penrose.png 960w,
+/Brown-Math-DUG-Journal/static/cb86250991762ba15b8ee6bd5e1f866a/07a9c/Penrose.png 1440w,
+/Brown-Math-DUG-Journal/static/cb86250991762ba15b8ee6bd5e1f866a/29114/Penrose.png 1920w,
+/Brown-Math-DUG-Journal/static/cb86250991762ba15b8ee6bd5e1f866a/a878e/Penrose.png 2048w&quot;
             sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
             type=&quot;image/png&quot;
           /&gt;
           &lt;img
             class=&quot;gatsby-resp-image-image&quot;
-            src=&quot;/MATH_DUG_Journal/static/cb86250991762ba15b8ee6bd5e1f866a/d9199/Penrose.png&quot;
+            src=&quot;/Brown-Math-DUG-Journal/static/cb86250991762ba15b8ee6bd5e1f866a/d9199/Penrose.png&quot;
             alt=&quot;Penrose.png&quot;
             title=&quot;&quot;
             loading=&quot;lazy&quot;
