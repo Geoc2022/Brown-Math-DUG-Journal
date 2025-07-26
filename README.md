@@ -70,15 +70,15 @@ Already wrote your paper in LaTeX? Here's how to convert it into a post:
 3. **Clean Up Formatting**
    You might need to tweak a few things:
 
-   * 📸 Images and videos — see [images guide](https://www.markdownguide.org/basic-syntax/#images-1), [video guide](https://css-tricks.com/embedded-content-in-markdown/)
-   * 📊 Tables — check out the [table converter](https://tableconvert.com/latex-to-markdown), [documentation](https://www.markdownguide.org/extended-syntax/#tables)
-   * 📝 Footnotes — refer to the [footnote guide](https://www.markdownguide.org/extended-syntax/#footnotes)
+   * Images and videos — see [images guide](https://www.markdownguide.org/basic-syntax/#images-1), [video guide](https://css-tricks.com/embedded-content-in-markdown/)
+   * Tables — check out the [table converter](https://tableconvert.com/latex-to-markdown), [documentation](https://www.markdownguide.org/extended-syntax/#tables)
+   * Footnotes — refer to the [footnote guide](https://www.markdownguide.org/extended-syntax/#footnotes)
 
 4. **Then Just Stage, Commit, and Push** — same as above.
 
 ---
 
-## 🛠 Dependencies
+## Dependencies
 
 If you’re using the conversion script, make sure you have Python installed. It uses standard libraries:
 
@@ -90,7 +90,7 @@ These should already be included with Python.
 
 ---
 
-## ⚙️ Quick Git Reference
+## Quick Git Reference
 
 A few helpful commands if you're new to Git:
 
