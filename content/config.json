@@ -22,7 +22,7 @@
   ],
   "author": {
     "title": "Brown Math DUG Journal",
-    "photo": "/logo.png",
+    "photo": "./logo.png",
     "description": "This site is meant to house articles written by Math DUG members at Brown",
     "contacts": [
       {
