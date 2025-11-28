@@ -2,17 +2,11 @@
 
 # [Brown Math DUG Journal](https://george.chemmala.com/Brown-Math-DUG-Journal/)
 
-Welcome to the **Brown Math DUG Journal**, featuring research by undergraduates in the Math Department at Brown University. Our goal is to provide a space where students can share their work, develop their writing skills, and contribute to the broader mathematical conversation.
+Welcome to the **Brown Math DUG Journal**, featuring work by undergraduates in the Math Department at Brown University. Our goal is to provide a space where students can interesting concepts they've come across in math, and we welcome any type of work - whether it's an expository paper, video, embeded code, project, etc.
 
 ---
-This journal is run by the Math Department Undergraduate Group (DUG) at Brown. It's a platform for students to:
-
-* Publish original research and expository work.
-* Practice clear mathematical writing.
-* Explore topics that go beyond the classroom.
-
+This journal is run by the Math Department Undergraduate Group (DUG) at Brown.
 You can learn more about the Math DUG [here](https://sites.google.com/brown.edu/mathdug/home).
-
 ---
 
 ## How to Contribute
@@ -35,7 +29,7 @@ Whether you're starting from scratch or already have a LaTeX paper, there are a 
 3. **Create and Edit Your Post**
 
    * Add a new `.md` (Markdown) file under `content/posts/`.
-   * Write your article using Markdown — or adapt from the [example paper](https://mathdugresearch.netlify.app/posts/example-paper)
+   * Write your article using Markdown — or adapt from the [example paper](https://george.chemmala.com/Brown-Math-DUG-Journal/posts/example-paper/)
    * Use your editor’s Markdown preview to check formatting.
 
 4. **Commit and Push**
@@ -45,7 +39,7 @@ Whether you're starting from scratch or already have a LaTeX paper, there are a 
    * Push your changes to GitHub.
    * If you used a fork, open a pull request.
 
-Need a hand? We’ve put together a [step-by-step guide](https://mathdugresearch.netlify.app/posts/step-by-step-guide-to-start-writing-on-here) to walk you through the process.
+Need a hand? We’ve put together a [step-by-step guide](https://george.chemmala.com/Brown-Math-DUG-Journal/posts/step-by-step-guide-to-start-writing-on-here/) to walk you through the process.
 
 ---
 
